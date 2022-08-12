@@ -164,11 +164,13 @@ img {
     text-align: center;
     width: 90% auto;
     margin-bottom: 2rem; 
+    transition: background-color .3 ease;
 }
 @media (min-width: 768px) {
    .button{
     margin-right: 1.5rem;
     margin-left: 0.5rem;
+    transition: background-color .3 ease;
    }
 }
 .button:hover{
