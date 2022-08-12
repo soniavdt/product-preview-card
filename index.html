@@ -21,12 +21,11 @@
     <main class="contenedor">
 
       <div class="card">
-        <div class="card__image--movil">
-          <img src="images/image-product-mobile.jpg" alt="">
-        </div>
-        <div class="card__image--desktop">
-          <img src="images/image-product-desktop.jpg" alt="">
-        </div>
+
+        <picture>
+          <source media="(min-width:376px)" srcset="images/image-product-desktop.jpg">
+          <img  src="images/image-product-mobile.jpg" alt="imagen product">
+        </picture>
         
         <div class="card__contents">
           <h2>Perfume</h2>

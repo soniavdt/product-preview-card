@@ -20,18 +20,12 @@ html{
   }
 
 body{
-    background-color: var(--primaryLight);
-    
-}
-@media (min-width: 768px) {
-    body{
         display: flex;
         min-height: 100vh;
         background-color: var(--primaryLight);
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
    
 }
 img{
@@ -76,7 +70,7 @@ h2{
 .card{
     display: flex;
     flex-direction: column;
-    margin: 3rem 2rem;
+    margin: 0rem 2rem;
 }
 @media (min-width: 768px) {
     .card{
@@ -84,7 +78,6 @@ h2{
         height: 45rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: 17.3rem auto;
     }
    
 }
@@ -98,23 +91,17 @@ img {
    }
 }
 .card__image--desktop{
-    display: none;
     border-radius: 1rem 0 0 1rem;
 }
-@media (min-width: 768px) {
-    .card__image--movil {
-        display: none;
-    }
-}
+
 @media (min-width: 768px) {
     .card__image--desktop {
-        display:contents;
         border-radius: 1rem 0 0 1rem;
     }
 }
 
 .card__contents{
-     padding: 2rem;
+    padding: 2rem;
     margin-top: -.5rem;
     background-color: var(--neutralWhite);
     border-radius: 0 0 1rem 1rem ;
